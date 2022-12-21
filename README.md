@@ -39,8 +39,8 @@
   - Train the model for 20 epochs.
   - Write our findings after the model fit, see if the earlier issue is resolved or not?
 * Class distribution: Examine the current class distribution in the training dataset 
-  - Which class has the least number of samples? Answer: seborrheic keratosis
-  - Which classes dominate the data in terms of the proportionate number of samples? Answer: pigmented benign keratosis
+  - Which class has the least number of samples? Answer: seborrheic keratosis.
+  - Which classes dominate the data in terms of the proportionate number of samples? Answer: pigmented benign keratosis.
   - melanoma and pigmented benign keratosis have proprtionate number of classes.
 * Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library.
 * Model Building & training on the rectified class imbalance data:
