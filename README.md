@@ -26,13 +26,13 @@
 ## Assignment Pipeline
 * Data Reading/Data Understanding → Defining the path for train and test images. 
 * Dataset Creation → Create train & validation dataset from the train directory with a batch size of 32. Also, make sure to resize images to `180x180`.
-* Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
+* Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset. 
 * Model Building & training: 
   - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0, 1).
   - Choose an appropriate optimiser and loss function for model training.
   - Train the model for 20 epochs.
   - Write our findings after the model fit. You must check if there is any evidence of model overfit or underfit.
-* Chose an appropriate data augmentation strategy to resolve underfitting/overfitting 
+* Chose an appropriate data augmentation strategy to resolve underfitting/overfitting
 * Model Building & training on the augmented data:
   - Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0, 1).
   - Choose an appropriate optimiser and loss function for model training.
